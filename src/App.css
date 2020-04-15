@@ -7,7 +7,16 @@
 }
 
 body {
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Bungee Shade', cursive !important;
+  background: var(--mainWhite) !important;
+  color: var(--black) !important;
+}
 
+h1 {
+  letter-spacing: 0.3rem;
+}
+
+.title-text {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
