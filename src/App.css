@@ -4,14 +4,20 @@
   --black: black;
   --mainGrey: rgb(157, 157, 157);
   --tada-blue: #61dafb;
+    padding: 0px;
 }
-
+html {
+  background: white;
+  
+}
 body {
   font-family: 'Bungee Shade', cursive !important;
   background: var(--mainWhite) !important;
   color: var(--black) !important;
 }
-
+.bg-grey {
+  background-color: var(--mainGrey)!important;
+}
 h1 {
   letter-spacing: 0.3rem;
 }
@@ -20,3 +26,15 @@ h1 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.w-3 {
+  width: 3rem;
+}
+.pa-1 {
+  padding: 1rem;
+}
+@media (max-width: 560px) {
+  .p-1 {
+    padding: 1rem;
+  }
+  
+}
