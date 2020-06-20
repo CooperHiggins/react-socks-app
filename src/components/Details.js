@@ -3,9 +3,13 @@ import React, { Component } from 'react';
 export default class Details extends Component {
     render() {
         return (
-            <div>
-                <h3>Hello from details</h3>
-            </div>
+            <div className="py-5">
+                    <div className="container">
+                        <div className="row">
+                            <h3>Hello from details</h3>
+                        </div>
+                    </div>
+                </div>
         )
     }
 }
